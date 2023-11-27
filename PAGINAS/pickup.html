@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>FeRoSe</title>
     <link rel="shortcut icon" href="./IMG/rslogo.ico"/>
@@ -14,159 +14,180 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <header> 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <img src="../IMG/rslogo.png">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="../PAGINAS/pickup.html">Inicio</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Autos
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Modelos</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="./suv.html">SUVs</a></li>
-                    <li><a class="dropdown-item" href="./pickup.html">Pick Ups</a></li>
-                    <li><a class="dropdown-item" href="#">Deportivos</a></li>
-                  </ul>
-        
-                </li>
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                </li>
-              </ul>
-            </div>
+        <img src="../IMG/rslogo.png">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Autos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Modelos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">SUVs</a></li>
+                  <li><a class="dropdown-item" href="#">Pick Ups</a></li>
+                  <li><a class="dropdown-item" href="#">Deportivos</a></li>
+                </ul>
+      
+              </li>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+              </li>
+            </ul>
           </div>
-    </header>
+        </div>
+  </header>
 
     <div id="carouselExampleIndicators" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../IMG/s10.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="../IMG/s10-2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner" style="background-color: #b3f4e9">
-        <div class="carousel-item active">
-          <img src="../IMG/Pick up.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./IMG/Desktop2.webp" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="./IMG/Desktop3.webp" class="d-block w-100" alt="...">
-        </div>
-    </div>
-    
-    <hr class="mb-4" />
+      <hr class="mb-4" />
 
-    <div class="card" style="width: 18rem;">
-      <img src="./IMG/cruze5_1.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Cruze 5</h5>
-        <a href="./PAGINAS/cruze5.html" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-    <div>
-      <!-- Footer -->
-      <footer
-              class="text-center text-lg-start text-white"
-              style="background-color: #2c4d81"
-              >
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <hr class="mb-4" />
-          <!-- Section: Links -->
-          <section class="">
-            <!--Grid row-->
-            <div class="d-flex justify-content-center align-items-center">
-              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Pianetti Sebastian</h5>
-    
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://wa.me/+5491157994944" class="text-white">11 5799-4944</a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/sebocha18/" class="text-white">Instagram</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Facebook</a>
-                  </li>
-                  <li>
-                    <a href="https://www.tiktok.com/@sebocha187" class="text-white">TikTok</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-    
-              <!--Grid column-->
-              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Oviedo Fernando</h5>
-    
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://wa.me/+5491165651106" class="text-white">11 6565-1106</a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagra.com/feroviedoo_" class="text-white">Instagram</a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/Feroviedo06" class="text-white">Twitter</a>
-                  </li>
-                  <li>
-                    <a href="https://www.tiktok.com/@oviedoffer" class="text-white">TikTok</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-    
-              <!--Grid column-->
-              <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Portillo ‎ ‎ ‎ ‎ ‎ ‎ ‎ Roque</h5>
-    
-                <ul class="list-unstyled mb-0">
-                  <li>
-                    <a href="https://wa.me/+5491127013160" class="text-white">11 2701-3160</a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/roque_daniel_/" class="text-white">Instagram</a>
-                  </li>
-                  <li>
-                    <a href="#!" class="text-white">Facebook</a>
-                  </li>
-                  <li>
-                    <a href="https://www.tiktok.com/@daniel10379" class="text-white">Tiktok</a>
-                  </li>
-                </ul>
-              </div>
-              <!--Grid column-->
-    
-              <!--Grid column-->
-              
-          <!-- Section: CTA -->
-          <hr class="mb-4" />
-          <!-- Section: Social media -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <!-- Grid container -->
-    
-        <!-- Copyright -->
-        <div
-             class="text-center p-3"
-             style="background-color: rgba(0, 0, 0, 0.2)"
-             >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../IMG/cruze5,a.webp" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Darkmoon Blue</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../IMG/cruze5,g.webp" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Abalone White</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../IMG/cruze5,b.webp" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Summit White</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../IMG/cruze5,n.webp" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: black;">Black Meet Kettle</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <footer
+      class="text-center text-lg-start text-white"
+      style="background-color: #2c4d81"
+      >
+<!-- Grid container -->
+<div class="container p-4 pb-0">
+  <hr class="mb-4" />
+  <!-- Section: Links -->
+  <section class="">
+    <!--Grid row-->
+    <div class="d-flex justify-content-center align-items-center">
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Pianetti Sebastian</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="https://wa.me/+5491157994944" class="text-white">11 5799-4944</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sebocha18/" class="text-white">Instagram</a>
+          </li>
+            <a href="https://www.tiktok.com/@sebocha187" class="text-white">TikTok</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Oviedo Fernando</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="https://wa.me/+5491165651106" class="text-white">11 6565-1106</a>
+          </li>
+          <li>
+            <a href="https://www.instagra.com/feroviedoo_" class="text-white">Instagram</a>
+          </li>
+            <a href="https://www.tiktok.com/@oviedoffer" class="text-white">TikTok</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Verthi Ivan</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="https://wa.me/+5491163582826" class="text-white">11 6358-2826</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/pi7uu/" class="text-white">Ins tagram</a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@pi7uuu" class="text-white">Tiktok</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </section>
+
+  <!-- Section: CTA -->
+  <hr class="mb-4" />
+  <!-- Section: Social media -->
+</div>
+<!-- Grid container -->
+<div
+             class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
           © 2023 FeRoSe:
-          <a class="text-white" href="https://www.chevroletdelsur.com.ar/modelos/chevrolet-onix"
-             >Pagina Oficial</a
-            >
         </div>
         <!-- Copyright -->
       </footer>
       <!-- Footer -->
     </div>
-</body>i
+</body>
