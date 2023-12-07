@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0%;
   box-sizing: border-box;
 }
 
@@ -64,14 +64,16 @@
   position: relative !important;
   margin-top: -8% !important;
   margin-left: 1rem !important;
-  left: 75% !important;
+  right: -50% !important;
+  height: 50px;
+  width: 350px;
 }
 
 .caracteristicas-1{
   position: relative !important;
   margin-top: -60% !important;
   margin-left: 0rem !important;
-  left: 60% !important;
+ /* left: 60% !important;*/
 }
 
 .caracteristicas-2{
@@ -85,4 +87,9 @@
 
 .equinox{
   margin-left: 55%;
+}
+
+.margen{
+  height: 150px;
+  width: 500px;
 }
